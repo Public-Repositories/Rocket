@@ -99,7 +99,7 @@ the `codegen/tests/ui-fail` directories of respective `codegen` crates. Each
 test is symlinked into sibling `ui-fail-stable` and `ui-fail-nightly`
 directories which contain the expected error output for stable and nightly
 compilers, respectively. To update codegen test UI output, run a codegen test
-suite with `TRYBUILD=overwrite` and inspect the `diff` of `.std*` files.
+suite with `TRYBUILD=overwrite` and inspect the `diff` of `.std*` files test.
 
 [`trybuild`]: https://docs.rs/trybuild/1
 
